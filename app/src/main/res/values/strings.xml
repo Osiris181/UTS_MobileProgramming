@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UTS</string>
+
+    <string-array name="namaMinuman">
+        <item>Air Mineral</item>
+        <item>Jus Apel</item>
+        <item>Jus Mangga</item>
+        <item>Jus Alpukat</item>
+    </string-array>
+
+    <string-array name="harga">
+        <item>Rp 246</item>
+        <item>Rp 615</item>
+        <item>Rp 246</item>
+        <item>Rp 369</item>
+    </string-array>
+</resources>
