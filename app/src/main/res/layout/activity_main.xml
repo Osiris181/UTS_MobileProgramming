@@ -20,7 +20,7 @@
             android:id="@+id/ezyfoody"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Binus Ez Foody"
+            android:text="Binus EzyFoody"
             android:fontFamily="sans-serif"
             android:textColor="#0A1743"
             android:textStyle="bold"

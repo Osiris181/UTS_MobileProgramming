@@ -107,12 +107,13 @@
                 android:id="@+id/myOrderBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="80dp"
-                android:layout_marginBottom="32dp"
+                android:layout_marginStart="84dp"
                 android:text="My Order"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.937" />
 
             <Button
                 android:id="@+id/drinkBtn"
@@ -123,7 +124,8 @@
                 android:text="Order More"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/myOrderBtn" />
+                app:layout_constraintStart_toEndOf="@+id/myOrderBtn"
+                app:layout_constraintTop_toTopOf="@+id/myOrderBtn" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
